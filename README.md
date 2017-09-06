@@ -1,4 +1,5 @@
 # 驼峰转换函数
+```javascript
 function camelCase (str) {
   var arr = str.split('-');
   for(var i = 0; i<arr.length; i++){
@@ -7,3 +8,4 @@ function camelCase (str) {
   return arr.join('')
 }
 camelCase('stone-and-fex') 
+```
